@@ -42,14 +42,14 @@ function App() {
         Production Progress
       </p>
       <div style={{
-        height: '100vh',
-        width: '900px'
+        height: '75vh',
+        width: '500px'
       }}>
         <Tree 
-        hasInteractiveNodes
-        data={sampleData}
-        renderCustomNodeElement={(reactD3Node) => renderRectSvgNode(reactD3Node)}
-        pathFunc="step"
+          hasInteractiveNodes
+          data={sampleData}
+          renderCustomNodeElement={(reactD3Node) => renderRectSvgNode(reactD3Node)}
+          pathFunc="step"
         />
       </div>
     </>
