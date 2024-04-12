@@ -1,0 +1,76 @@
+{
+    "name": "Arm-1",
+    "fillColor": "red",
+    "children": [
+      {
+        "name": "Motion-sensor-1",
+        "fillColor": "blue",
+        "attributes": {
+          "Department": "Production",
+          "isFullTime": true,
+          "weeklyHours": 80
+        },
+        "children": [
+          {
+            "name": "circuit-1",
+            "fillColor": "green",
+            "attributes": {
+              "Department": "Fabrication"
+            },
+            "children": [
+              {
+                "name": "soldering"
+              }
+            ]
+          },
+          {
+            "name": "circuit-2",
+            "fillColor": "green",
+            "attributes": {
+              "Department": "Assembly"
+            },
+            "children": [
+              {
+                "name": "soldering"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Motor-function-1",
+        "attributes": {
+          "Department": "Marketing",
+          "isFullTime": true,
+          "weeklyHours": 80
+        },
+        "children": [
+          {
+            "name": "Wiring part-1",
+            "fillColor": "green",
+            "attributes": {
+              "Department": "A"
+            },
+            "children": [
+              {
+                "name": "connect wire"
+              }
+            ]
+          },
+          {
+            "name": "Wiring part-1",
+            "fillColor": "red",
+            "attributes": {
+              "Department": "B"
+            },
+            "children": [
+              {
+                "name": "connect wire"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
