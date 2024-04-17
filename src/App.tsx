@@ -3,19 +3,15 @@
 // import viteLogo from '/vite.svg'
 import Tree from 'react-d3-tree';
 import sampleData from './data/sample-data.json';
+import TreeNode from './TreeNode';
 import './App.css'
+import { CustomNodeElementProps } from './type/type';
 // import { ReactElement } from 'react';
 // import { NodeDatumType } from "./type/type";
 
 function App() {
-  const renderRectSvgNode = (reactD3Node) => (
-    <g>
-      <rect width="140" height="80" x="-10" y="-40" onClick={reactD3Node.toggleNode} fill={reactD3Node.nodeDatum.fillColor ? reactD3Node.nodeDatum.fillColor : 'black'} />
-      <text x="-3" y="-15" strokeWidth="1" fontSize={14} style={{font: '16px', fill: 'white', stroke: 'white'}}>
-        {reactD3Node.nodeDatum.name}
-      </text>
-      
-    </g>
+  const renderRectSvgNode = (reactD3Node: CustomNodeElementProps) => (
+    <TreeNode  node={reactD3Node}/>
   );
 
   return (

@@ -1,8 +1,103 @@
+
 {
+  "id": "main-tree-11",
+  "name": "Assembly-main",
+  "fillColor": "yellow",
+  "children": [
+    {
+      "id": "arm-1",
+      "name": "Arm-1",
+      "fillColor": "red",
+      "children": [
+        {
+          "id": "motion-sensor-1",
+          "name": "Motion-sensor-1",
+          "fillColor": "blue",
+          "attributes": {
+            "Department": "Production",
+            "isFullTime": true,
+            "weeklyHours": 80
+          },
+          "children": [
+            {
+              "id": "circuit-1",
+              "name": "circuit-1",
+              "fillColor": "green",
+              "attributes": {
+                "Department": "Fabrication"
+              },
+              "children": [
+                {
+                  "id": "soldering-1",
+                  "name": "soldering"
+                }
+              ]
+            },
+            {
+              "id": "circuit-2",
+              "name": "circuit-2",
+              "fillColor": "green",
+              "attributes": {
+                "Department": "Assembly"
+              },
+              "children": [
+                {
+                  "id": "soldering-1",
+                  "name": "soldering"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "motor-function-1",
+          "name": "Motor-function-1",
+          "attributes": {
+            "Department": "Marketing",
+            "isFullTime": true,
+            "weeklyHours": 80
+          },
+          "children": [
+            {
+              "id": "wiring-part-1",
+              "name": "Wiring part-1",
+              "fillColor": "green",
+              "attributes": {
+                "Department": "A"
+              },
+              "children": [
+                {
+                  "id": "connect-wire-1",
+                  "name": "connect wire"
+                }
+              ]
+            },
+            {
+              "id": "wiring-part-1",
+              "name": "Wiring part-1",
+              "fillColor": "red",
+              "attributes": {
+                "Department": "B"
+              },
+              "children": [
+                {
+                  "id": "connect-wire-1",
+                  "name": "connect wire"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    
+  },
+  {
+    "id": "arm-1",
     "name": "Arm-1",
     "fillColor": "red",
     "children": [
       {
+        "id": "motion-sensor-1",
         "name": "Motion-sensor-1",
         "fillColor": "blue",
         "attributes": {
@@ -12,6 +107,7 @@
         },
         "children": [
           {
+            "id": "circuit-1",
             "name": "circuit-1",
             "fillColor": "green",
             "attributes": {
@@ -19,11 +115,13 @@
             },
             "children": [
               {
+                "id": "soldering-1",
                 "name": "soldering"
               }
             ]
           },
           {
+            "id": "circuit-2",
             "name": "circuit-2",
             "fillColor": "green",
             "attributes": {
@@ -31,6 +129,7 @@
             },
             "children": [
               {
+                "id": "soldering-1",
                 "name": "soldering"
               }
             ]
@@ -38,6 +137,7 @@
         ]
       },
       {
+        "id": "motor-function-1",
         "name": "Motor-function-1",
         "attributes": {
           "Department": "Marketing",
@@ -46,6 +146,7 @@
         },
         "children": [
           {
+            "id": "wiring-part-1",
             "name": "Wiring part-1",
             "fillColor": "green",
             "attributes": {
@@ -53,11 +154,13 @@
             },
             "children": [
               {
+                "id": "connect-wire-1",
                 "name": "connect wire"
               }
             ]
           },
           {
+            "id": "wiring-part-1",
             "name": "Wiring part-1",
             "fillColor": "red",
             "attributes": {
@@ -65,6 +168,7 @@
             },
             "children": [
               {
+                "id": "connect-wire-1",
                 "name": "connect wire"
               }
             ]
@@ -72,5 +176,182 @@
         ]
       }
     ]
+  
+},
+{
+  "id": "arm-1",
+  "name": "Arm-1",
+  "fillColor": "red",
+  "children": [
+    {
+      "id": "motion-sensor-1",
+      "name": "Motion-sensor-1",
+      "fillColor": "blue",
+      "attributes": {
+        "Department": "Production",
+        "isFullTime": true,
+        "weeklyHours": 80
+      },
+      "children": [
+        {
+          "id": "circuit-1",
+          "name": "circuit-1",
+          "fillColor": "green",
+          "attributes": {
+            "Department": "Fabrication"
+          },
+          "children": [
+            {
+              "id": "soldering-1",
+              "name": "soldering"
+            }
+          ]
+        },
+        {
+          "id": "circuit-2",
+          "name": "circuit-2",
+          "fillColor": "green",
+          "attributes": {
+            "Department": "Assembly"
+          },
+          "children": [
+            {
+              "id": "soldering-1",
+              "name": "soldering"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "motor-function-1",
+      "name": "Motor-function-1",
+      "attributes": {
+        "Department": "Marketing",
+        "isFullTime": true,
+        "weeklyHours": 80
+      },
+      "children": [
+        {
+          "id": "wiring-part-1",
+          "name": "Wiring part-1",
+          "fillColor": "green",
+          "attributes": {
+            "Department": "A"
+          },
+          "children": [
+            {
+              "id": "connect-wire-1",
+              "name": "connect wire"
+            }
+          ]
+        },
+        {
+          "id": "wiring-part-1",
+          "name": "Wiring part-1",
+          "fillColor": "red",
+          "attributes": {
+            "Department": "B"
+          },
+          "children": [
+            {
+              "id": "connect-wire-1",
+              "name": "connect wire"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+
+},
+{
+"id": "arm-1",
+"name": "Arm-1",
+"fillColor": "red",
+"children": [
+  {
+    "id": "motion-sensor-1",
+    "name": "Motion-sensor-1",
+    "fillColor": "blue",
+    "attributes": {
+      "Department": "Production",
+      "isFullTime": true,
+      "weeklyHours": 80
+    },
+    "children": [
+      {
+        "id": "circuit-1",
+        "name": "circuit-1",
+        "fillColor": "green",
+        "attributes": {
+          "Department": "Fabrication"
+        },
+        "children": [
+          {
+            "id": "soldering-1",
+            "name": "soldering"
+          }
+        ]
+      },
+      {
+        "id": "circuit-2",
+        "name": "circuit-2",
+        "fillColor": "green",
+        "attributes": {
+          "Department": "Assembly"
+        },
+        "children": [
+          {
+            "id": "soldering-1",
+            "name": "soldering"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "motor-function-1",
+    "name": "Motor-function-1",
+    "attributes": {
+      "Department": "Marketing",
+      "isFullTime": true,
+      "weeklyHours": 80
+    },
+    "children": [
+      {
+        "id": "wiring-part-1",
+        "name": "Wiring part-1",
+        "fillColor": "green",
+        "attributes": {
+          "Department": "A"
+        },
+        "children": [
+          {
+            "id": "connect-wire-1",
+            "name": "connect wire"
+          }
+        ]
+      },
+      {
+        "id": "wiring-part-1",
+        "name": "Wiring part-1",
+        "fillColor": "red",
+        "attributes": {
+          "Department": "B"
+        },
+        "children": [
+          {
+            "id": "connect-wire-1",
+            "name": "connect wire"
+          }
+        ]
+      }
+    ]
   }
+]
+
+}
+  ]
+}
   
